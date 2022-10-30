@@ -1,0 +1,63 @@
+html, body {
+    background-color: rgb(172, 172, 172);
+}
+
+.titulo { font-size:  4em;text-align: center; font-family: 'Island Moments', cursive;}
+
+#root {
+    padding: 20px;
+}
+
+
+.cam-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: azure;
+    padding: 10px 0px 25px 0px;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+    margin-top: -10px;
+}
+
+.polaroidContenedor img {
+    width: 100%;
+  }
+
+  .polaroidContenedor {
+    width:320px;
+    padding:10px 10px 10px 10px;
+    border:1px solid #BFBFBF;
+    background-color:white;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    margin: 30px;
+}
+
+.textoPolaroid, .textoRegion {
+  display:block;
+  margin-top:1em;
+  text-align:center;
+  font-style:italic;
+  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.titular {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+    margin-top: 20px;
+}
+.mostrarNone {display: none;}
+.error.mostrarblock { display: none;}
+.error.mostrarNone { display: block;}
+
+.error { text-align: center; font-style: italic; margin: 10px;}
